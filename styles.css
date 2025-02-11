@@ -1,0 +1,114 @@
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #00feba, #5b548a);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #fff;
+            padding: 25px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 450px;
+            text-align: center;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        input {
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            color: #555;
+            padding: 10px 25px;
+            height: 40px;
+            border-radius: 20px;
+            flex: 1;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            border: 0;
+            outline: 0;
+            background: aqua;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: palegreen;
+        }
+
+        button img {
+            width: 16px;
+        }
+
+        .weather-info {
+            display: none;
+        }
+
+        .weather-icon {
+            width: 100px;
+            margin: 20px 0;
+            background-color: aqua;
+            border-radius: 50%;
+        }
+
+        .temp {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .city {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .col {
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+
+        .col img {
+            width: 30px;
+            margin-right: 10px;
+            border-radius: 50%;
+            background-color: aqua;
+        }
+        .col img:hover {
+            width: 40px;
+        }
+
+        .error {
+            text-align: left;
+            margin-left: 10px;
+            font-size: 14px;
+            color: red;
+            display: none;
+        }
+    </style>
